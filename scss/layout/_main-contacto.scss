@@ -1,0 +1,76 @@
+form div input:focus{
+    background-color: darkgoldenrod;
+
+}
+.datos{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-evenly;
+}
+.contacto{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.400);
+    padding: 18px;
+    margin: auto;
+    @include border;
+    @include shadow;
+    -webkit-animation: puff-in-ver 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-ver 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@-webkit-keyframes puff-in-ver {
+    0% {
+      -webkit-transform: scaleY(2);
+              transform: scaleY(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-ver {
+    0% {
+      -webkit-transform: scaleY(2);
+              transform: scaleY(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.check{
+    text-align: center;
+    font-size: 18px;
+}
+.select{
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 17px;
+}
+.boton{
+    display: flex;
+    justify-content: space-evenly;
+}
+.consulta{
+    width: 100%;
+    font-size: 19px;
+}

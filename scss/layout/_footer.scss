@@ -1,0 +1,32 @@
+footer {
+    background-image: url("../assets/img/baner.jpg");
+    @include baner;
+    grid-area: footer;
+    @include border;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    section {
+      div {
+        text-align: left;
+        padding: 3px;
+        color: rgb(0, 0, 0);
+        margin-top: auto;
+        align-items: center;
+      }
+      div a {
+        text-decoration: none; 
+      }
+      }
+      div {
+        background-color: #E59305;
+        display: flex;
+        gap: 15px;
+        margin: 30px;
+        width: 125px;
+        justify-content: center;
+        @include border;
+      }
+    }
+  

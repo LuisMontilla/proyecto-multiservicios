@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-areas:
+    "header "
+    "main  "
+    "footer" ;
+}

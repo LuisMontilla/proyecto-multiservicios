@@ -1,0 +1,44 @@
+header{
+    background-image: url("../assets/img/baner.jpg");
+    @include baner;
+    grid-area: header;
+    @include border;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    width: 100%;
+    height: auto;
+    h2{
+    margin-bottom: 5%;
+    font-size: 20px;
+    text-align: center;
+    }
+
+
+.navHeader{
+    background-color: #E59305;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    padding-right: 12px;
+    font-size: 12px;
+    margin: 12px;
+    @include border;
+    width: 290px;
+}
+.navbar{
+    height: auto;
+    position: fixed;
+    top: 75%;
+}
+}
+li {
+    list-style-type: none;
+    a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    }
+    a:hover {
+    color: white;
+    transform: scale(1);
+    }
+}

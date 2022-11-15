@@ -1,0 +1,110 @@
+@media (min-width:768px){
+    .container{
+        display: grid;
+        grid-template-areas:
+        "header header "
+        "main  main"
+        "footer footer" ;
+        }
+        main h1 {
+            text-align: center;
+            font-size: 65px;
+        }
+        main section p{
+            text-align: center;
+        }
+        header{
+            background-image: url("../assets/img/baner.jpg");
+            grid-area: header;
+            @include border;
+            display: flex;
+            justify-content: space-evenly;
+            align-items:flex-end;
+            padding: 15px;
+            min-width: 768px;
+            width: 100%;
+            height: auto;
+        }
+        .navbar{
+            height: auto;
+            position: fixed;
+            top: 75%;
+        }
+        .navHeader{
+            background-color: #E59305;
+            display: flex;
+            justify-content: flex-end; 
+            gap: 15px;
+            padding-right: 5px;
+            font-size: 20px;
+            width: 350px;
+            margin: 15px;
+            @include border;
+        }
+        header h2{
+            margin-bottom: 5%;
+            font-size: 30px;
+        }
+        section article div p{
+            font-size: 16px;
+        }
+        .boxPadre{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .box{
+            width: 400px;
+            height: 140px;
+            @include border;
+            display: flex;
+            justify-content: center;
+            background-color:  rgba(128, 128, 128, 0.790);
+            margin: 20px 0px;
+        }.contacto{
+            width: 400px;
+            background-color: rgba(128, 128, 128, 0.400);
+            padding: 30px;
+            margin: auto;
+            @include border;
+        }
+        .controls{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        .check{
+            text-align: center;
+            font-size: 18px;
+        }
+        .select{
+            width: 400px;
+            padding: 15px;
+            font-size: 19px;
+        }
+        .boton{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .consulta{
+            width: 100%;
+            font-size: 19px;
+        }
+        .dtFaq, .dtServ { 
+            background-color: rgba(128, 128, 128, 0.452);
+            padding: 15px;
+            margin: 0 15px 40px 15px; 
+            cursor: pointer;
+            display:flex;
+            font-size: 25px;
+        }
+        .dtServ{
+            background-color: #F3BB52;
+        
+        }
+        summary{
+            font-size: 25px;
+        }
+}

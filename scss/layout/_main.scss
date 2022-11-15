@@ -1,0 +1,25 @@
+
+main{
+    background-image: url("../assets/img/meidPro.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    grid-area: main;
+    padding: 60px 22px 30px 22px;
+    h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+    section p{
+    text-align: center;
+        }
+    section div p{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: rgba(128, 128, 128, 0.400) ;
+        }
+    section div p a{
+        text-decoration: none;
+    }
+    }

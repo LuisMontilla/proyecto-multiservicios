@@ -1,0 +1,12 @@
+@mixin baner {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin border {
+    border: 2px solid black;
+}
+@mixin shadow {
+    -webkit-box-shadow: 18px 8px 24px 0px rgba(0, 0, 0, 1);
+-moz-box-shadow: 18px 8px 24px 0px rgba(0, 0, 0, 1);
+box-shadow: 18px 8px 24px 0px rgba(0, 0, 0, 1);
+}
