@@ -1,4 +1,4 @@
-@media (min-width:768px){
+@media (min-width:500px){
     .container{
         display: grid;
         grid-template-areas:
@@ -34,16 +34,16 @@
             background-color: #E59305;
             display: flex;
             justify-content: flex-end; 
-            gap: 15px;
-            padding-right: 5px;
-            font-size: 20px;
+            gap: 14px;
+            padding-right: 4px;
+            font-size: 19px;
             width: 350px;
-            margin: 15px;
+            margin: 14px;
             @include border;
         }
         header h2{
             margin-bottom: 5%;
-            font-size: 30px;
+            font-size: 27px;
         }
         section article div p{
             font-size: 16px;

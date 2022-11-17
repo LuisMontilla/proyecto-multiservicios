@@ -23,16 +23,16 @@ header .navHeader{
     background-color: #E59305;
     display: flex;
     justify-content: flex-end; 
-    gap: 25px;
-    padding-right: 15px;
-    font-size: 25px;
-    width: 550px;
-    margin: 15px;
+    gap: 23px;
+    padding-right: 13px;
+    font-size: 22px;
+    width: 500px;
+    margin: 13px;
     @include border;
 }
 header h2{
     margin-bottom: 5%;
-    font-size: 33px;
+    font-size: 30px;
 }
 .boxPadre{
     display: flex;
